@@ -13,7 +13,7 @@ exports.numbersAnswers = {
   convertToBinary: function(num) {
 
   },
-  //thanks stackoverflow
+  //thanks stackoverflow  http://stackoverflow.com/questions/9993266/javascript-multiply-not-precise
   multiply: function(a, b) {
     var precise = (a*10)*(b*10)/100;
     return precise;
